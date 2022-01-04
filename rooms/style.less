@@ -27,7 +27,6 @@ body {
     // overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0, 0, 0); /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
-  
   }
 
   /* Modal Content/Box */
@@ -38,23 +37,23 @@ body {
     border: 1px solid #888;
     width: 62%; /* Could be more or less, depending on screen size */
     align-content: center;
-    h1{
+    h1 {
       color: #182a90;
       direction: rtl;
-    }  
-    p,h2{
-        display: flex;
-        margin: 0 auto;
-        width: 82%;
-        direction: rtl;
-        // border: 1px solid black;
-        text-align: right;
-      }
-      p{
-        margin-bottom: 50px;
-        font-size: 1.2rem;  
-      }
-
+    }
+    p,
+    h2 {
+      display: flex;
+      margin: 0 auto;
+      width: 82%;
+      direction: rtl;
+      // border: 1px solid black;
+      text-align: right;
+    }
+    p {
+      margin-bottom: 50px;
+      font-size: 1.2rem;
+    }
   }
 
   /* The Close Button */
@@ -68,7 +67,7 @@ body {
 
   .close:hover,
   .close:focus {
-    color: #182a90;
+    color: #000000;
     text-decoration: none;
     cursor: pointer;
   }
@@ -82,7 +81,8 @@ body {
     box-shadow: 0px 5px #182a9013;
     margin-bottom: 10px;
 
-    #logo, #instructions {
+    #logo,
+    #instructions {
       &:hover {
         opacity: 0.85;
       }
@@ -92,7 +92,7 @@ body {
       display: flex;
       width: 100%;
       justify-content: center;
-      color: #182a90;
+      color: #000000;
       direction: rtl;
     }
     h3 {
@@ -119,7 +119,7 @@ body {
     .pic {
       margin-top: 62px;
       border-radius: 7px;
-      background-image: url("./img/back1.jpg");
+      background-image: url("./img/back1.jpeg");
       background-size: cover;
       width: 800px;
       height: 530px;
@@ -146,10 +146,11 @@ body {
       }
       #obj-three {
         /*BEFORE CLICK*/
-        margin: 157px 900px 10px 265px;
-        width: 30px;
+        margin: 420px 100px 0px 185px;
+        width: 240px;
+        height: 50px;
         // border: red 1px solid;
-        
+
         /*after click*/
         // margin: 135px 900px 10px 220px;
         // background-image: url("./img/engineer.png");
@@ -160,9 +161,9 @@ body {
       #obj-two {
         /*BEFORE CLICK*/
         visibility: visible;
-        margin: 300px 100px 200px 75px;
-        width: 20px;
-        height: 35px;
+        margin: 200px 600px 0px 630px;
+        width: 100px;
+        height: 60px;
         // border: red 1px solid;
         /*AFTER CLICK*/
         // margin: 90px 900px 10px 630px;
@@ -175,9 +176,9 @@ body {
       #obj-one {
         /*BEFORE CLICK*/
         visibility: visible;
-        margin: 326px 100px 200px 484px;
-        width: 15px;
-        height: 16px;
+        margin: 165px 100px 0px 40px;
+        width: 100px;
+        height: 50px;
         // border: red 1px solid;
         /*AFTER CLICK*/
         // margin: 300px 900px 10px 340px;
@@ -193,7 +194,7 @@ body {
       flex-direction: column;
       align-items: center;
       // background-color: #ffffff;
-      color: #182a90;
+      color: #000000;
       width: 27%;
       margin-left: 15px;
 
@@ -244,7 +245,7 @@ body {
         background-size: cover;
         -webkit-backface-visibility: hidden; /* Safari */
         backface-visibility: hidden;
-        background-color: #ff6600;
+        background-color: #0e9715;
         border-radius: 10px;
         color: white;
         display: flex;
@@ -271,7 +272,7 @@ body {
         p {
           // font-weight: bold;
           display: flex;
-          color: #182a90;
+          color: #000000;
           width: 70%;
           font-size: 21px;
           margin: 0 auto;
@@ -281,7 +282,7 @@ body {
       }
     }
   }
-  .next-level{
+  .next-level {
     display: none;
     width: 20%;
     height: 100px;
@@ -297,7 +298,7 @@ body {
     margin-left: 380px;
     margin-top: 200px;
 
-    &:hover{
+    &:hover {
       animation: glow 0.5s infinite alternate;
       background-color: lightgreen;
     }
@@ -315,20 +316,20 @@ body {
     text-align: center;
   }
 }
-#certificate{
-  background-color: #F2F2F2;
-  #page{
+#certificate {
+  background-color: #f2f2f2;
+  #page {
     width: 450px;
     height: 670px;
     background-image: url(./img/certificate.jpg);
     background-size: cover;
     direction: rtl;
-    #p-logo{
+    #p-logo {
       display: flex;
       justify-content: center;
       margin-top: 40px;
     }
-    h1{
+    h1 {
       display: flex;
       justify-content: center;
       font-size: 45px;
@@ -336,27 +337,30 @@ body {
       margin: 0px;
       margin-top: 30px;
     }
-    #name{
+    #name {
       display: flex;
       justify-content: center;
       font-size: 36px;
       color: rgb(26, 26, 26);
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
       margin-top: 30px;
-      #first,#last{
+      #first,
+      #last {
         margin-left: 7px;
       }
     }
-    p{
+    p {
       display: flex;
       justify-self: center;
       width: 80%;
       font-size: 18px;
       margin: 0px auto;
       margin-top: 40px;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
     }
-    #signature{
+    #signature {
       display: flex;
       margin: 0px auto;
       margin-top: 247px;
@@ -364,7 +368,7 @@ body {
       margin-right: 112px;
       width: 80%;
       font-weight: bold;
-      font-family: 'Courier New', Courier, monospace;
+      font-family: "Courier New", Courier, monospace;
     }
   }
 }
