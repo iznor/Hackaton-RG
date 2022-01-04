@@ -41,9 +41,10 @@ body{
     margin-top: 20px;
 }
 
-img{
+img.ramatGan{
     margin-bottom: 10px;
-    margin-top: 50px;
+    margin-top: 0px;
+    width: 1100px;
 }
 
 h1{
@@ -58,22 +59,35 @@ h3{
     width: 50px;
     height:50px;
     margin-top:-305px;
-    margin-right: 80px;
-
+    margin-right: 60px;
 }
 
 a:hover img{
-    width: 90px;
-    height:90px;
+    width: 100px;
+    height: 100px;
 }
 
-.ramatGan{
-    width: 750px;
-    height: 600px;
-
+.robot{
+    width: 50px;
+    height:50px;
+    margin-top:-605px;
+    margin-left:200px;
 }
 
+.money{
+    width: 60px;
+    height:70px;
+    margin-top:-690px;
+    margin-right:300px;
+}
+
+.shoping{
+    width: 60px;
+    height:70px;
+    margin-top:-250px;
+    margin-left:400px;    
+}
 .ramatGan{
-    width:850px;
-    height:850px;
+    width:950px;
+    height:950px;
 }
